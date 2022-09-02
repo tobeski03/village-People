@@ -1,0 +1,65 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+} */
+
+.main {
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: #5fcf80 solid 1px;
+  border-right: none;
+  padding: 0.5rem 2em;
+  /* align-items: center; */
+  /* gap: 1.5rem; */
+}
+.formright {
+  border: #5fcf80 solid 1px;
+}
+.regform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+.profileform {
+  margin-top: 2rem;
+}
+span {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+.doyou {
+  text-align: center;
+  font-size: 0.8rem;
+}
+button {
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+.reg {
+  margin: 0;
+  margin: 0.8rem;
+  /* width: 100%; */
+}
+input,
+textarea,
+select {
+  width: 15rem;
+  outline: none;
+  border: 1px solid #5fcf80;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+input::after {
+  outline: none;
+}
+.clicktologin {
+  font-size: 0.8rem;
+}
